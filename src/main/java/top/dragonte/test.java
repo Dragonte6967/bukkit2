@@ -9,10 +9,12 @@ public final class test extends JavaPlugin {
         // Plugin startup logic
         getLogger().info("插件加载成功");
         getLogger().info("此插件为Dragonte6967在codespaces编写的第一个插件");
+        getServer().getPluginManager().registerEvents(new listener(),this);
     }
 
     @Override
     public void onDisable() { 
         // Plugin shutdown logic
     }
+    
 }
