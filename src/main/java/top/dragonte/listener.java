@@ -9,6 +9,7 @@ public class listener implements Listener {
     @EventHandler
     public void online(PlayerJoinEvent pje) {
         Player player = pje.getPlayer();
+       
         System.out.println(player.getDisplayName());
     }
 }
