@@ -1,0 +1,4 @@
+name: test
+version: '1.0-SNAPSHOT'
+main: top.dragonte.test
+api-version: 1.15
