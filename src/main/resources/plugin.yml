@@ -1,0 +1,4 @@
+name: test
+version: '${project.version}'
+main: top.dragonte.test
+api-version: 1.15
