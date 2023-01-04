@@ -12,7 +12,7 @@ public final class test extends JavaPlugin {
     }
 
     @Override
-    public void onDisable() {
+    public void onDisable() { 
         // Plugin shutdown logic
     }
 }
